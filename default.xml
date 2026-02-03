@@ -61,6 +61,14 @@
            fetch="https://github.com/Neoteric-OS"
            revision="refs/heads/bka" />
 
+  <remote  name="neoteric-pp"
+           fetch="ssh://git@github.com/neoteric-pp"
+           revision="refs/heads/bka" />
+
+  <remote  name="neoteric-pp-codeberg"
+           fetch="ssh://git@codeberg.org/neoteric-pp"
+           revision="refs/heads/bka" />
+
   <remote  name="neoteric-gitlab"
            fetch="https://gitlab.com/neoteric-os"
            revision="bka" />
@@ -70,6 +78,7 @@
            revision="refs/heads/bka" /> 
 
   <include name="neoteric.xml"/>
+  <include name="neoteric-pp.xml"/>
   <include name="internal.xml" />
 
   <!-- Remove extraneous projects -->
